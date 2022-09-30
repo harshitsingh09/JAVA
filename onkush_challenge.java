@@ -1,16 +1,17 @@
-//import java.util.Scanner;
+import java.util.*;
 public class onkush_challenge {
     public static void main(String[] args) {
-        //Scanner x = new Scanner(System.in);
-        //int n = (int) x;
-        int n = 12;
+        Scanner x = new Scanner(System.in);
+        System.out.println("Enter the start value and end value:");
+        int n = x.nextInt();
+        int m = x.nextInt();
         String [] arr = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
-        for (int i = 0; i < n; i++){
-            if (i < 9){
+        for (int i = n - 1; i <= m; i++){
+            if (i < 10){
                 System.out.println(arr[i]);
             }
             else{
-                if (i%2 == 0){
+                if (i % 2 == 0){
                     System.out.println("EVEN");
                 }
                 else{
@@ -18,5 +19,6 @@ public class onkush_challenge {
                 }
             }
         }
+        x.close();
     }
 }
