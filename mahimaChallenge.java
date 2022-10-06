@@ -11,7 +11,7 @@ public class mahimaChallenge {
                 }
                 arr[0][j] = '*';
                     System.out.print(arr[i][j]);
-                arr[j][0] = '*';
+                arr[j][0] = '*';    
                     System.out.print(arr[i][j]);
                 // arr[0][i] = '*';
                 // arr[7][i] = '*';
