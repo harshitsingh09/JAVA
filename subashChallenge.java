@@ -10,4 +10,5 @@ public class subashChallenge {
     int m = nextInt();
     int n = nextInt();
     int[][] arr = new int[m][n];
+    
 }
