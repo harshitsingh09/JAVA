@@ -1,14 +1,13 @@
-/*
-Create a 2d array using only one for loop and no conditional statement
-*/
-
 import java.util.*;
-import java.util.Scanner;
 
-public class subashChallenge {
-    
-    int m = nextInt();
-    int n = nextInt();
-    int[][] arr = new int[m][n];
-    
+public class subashChallenge{
+	public static void main(String[] args) {
+		int r,c;
+		Scanner sc=new Scanner(System.in);
+		r=sc.nextInt();
+		c=sc.nextInt();
+		int[][] arr=new int[r][c];
+		for(int k = 0; k < r * c; k++) {arr[k / c][k % r] = sc.nextInt();}
+        sc.close();
+	}
 }
